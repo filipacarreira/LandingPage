@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+	font-family: cursive;
+	background: url(imagens/books.jpg) no-repeat center center fixed;
+	color: white;
+}
+
+h1 {
+	font-size: 70px;
+	padding-top: 200px;
+	text-shadow: 4px 4px 4px black;
+}
+
+p {
+	font-size: 25px;
+	text-shadow: 2px 2px 5px black;
+}
+
+.botao {
+	text-decoration: none;
+	background-color: rgb(210,105,30);
+	color: white;
+	font-size: 20px; 
+	padding:10px 15px 10px 15px;
+	border-radius: 4px;
+}
+
+.botao:hover {
+	background-color: rgba(139,69,19,0.7);
+}
+
+.lista {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 120px;
+}
+
+.lista li {
+	display: inline;
+}
+
+.lista a {
+	color: white;
+	font-size: 25px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+.lista a:hover {
+	color: gray;
+}
